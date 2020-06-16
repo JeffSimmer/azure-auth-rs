@@ -22,5 +22,5 @@ thiserror = "1.0"
 tokio = { version = "0.2", features = ["process"] }
 
 [dev-dependencies]
-tokio = { version = "*", features = ["full"] }
+tokio = { version = "0.2", features = ["full"] }
 openssl = "0.10"
